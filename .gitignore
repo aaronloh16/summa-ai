@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# FAISS index files (optional - comment out if you want to commit them)
+*.faiss
+
+# Output files (optional - comment out if you want to commit them)
+out/
+out/*.jsonl
+
+# Logs
+*.log
+logs/
+
+# Next.js (frontend)
+web/.next/
+web/out/
+web/node_modules/
+web/.pnp
+web/.pnp.js
+web/.vercel
+web/.turbo
+
+# TypeScript
+web/*.tsbuildinfo
+web/next-env.d.ts
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.cursor/
+terminals/
+*.tmp
+*.temp
+
+# Large files that shouldn't be in git
+writings/scraped/
+non-html/*.xml
